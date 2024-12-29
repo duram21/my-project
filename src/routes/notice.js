@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import PostForm from "../components/post-form";
+import Timeline from "./timeline";
 
 const Wrapper = styled.div`
   display: grid;
@@ -11,8 +12,9 @@ const Wrapper = styled.div`
 export default function Notice(){
   return (
     <Wrapper>
-    <PostForm />
-  </Wrapper>
+      <PostForm />
+      <Timeline />
+    </Wrapper>
 
   )
 }
