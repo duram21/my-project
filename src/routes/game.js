@@ -6,6 +6,7 @@ export default function Game(){
     <div>
       <h1>틱택토 게임을 해봅시다</h1>
       <Board />
+      
     </div>
   );
 }
