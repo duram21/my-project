@@ -48,6 +48,8 @@ export default function Home() {
       <MenuButton text="어떻게 만들어요?" move="how-to-make" />
       <MenuButton text="만들러 가기" move="make" />
       <MenuButton text="틱택토 게임" move="game" />
+      <MenuButton text="게시판 가기" move="notice" />
+
     </div>
   )
 }

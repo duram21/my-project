@@ -7,6 +7,7 @@ import Profile from './routes/profile';
 import CreateAccount from './routes/login';
 import Game from './routes/game';
 import Layout from './routes/layout';
+import Notice from './routes/notice';
 
 
 
@@ -44,8 +45,11 @@ const router = createBrowserRouter([
   {
     path:"/game",
     element: <Game />
+  },
+  {
+    path:"/notice",
+    element: <Notice />
   }
-  
 ])
 
 function App() {
